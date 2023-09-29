@@ -6,7 +6,9 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@types/pg": "^8.10.3",
+    "elysia": "latest",
+    "pg": "^8.11.3"
   },
   "devDependencies": {
     "bun-types": "latest"
